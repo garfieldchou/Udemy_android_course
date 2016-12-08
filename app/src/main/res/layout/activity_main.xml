@@ -19,11 +19,34 @@
         android:text="My Great App"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true"
         android:textSize="30sp"
         android:textColor="#080808"
-        android:background="#2cfb03"
-        android:padding="10dp" />
+        android:background="#0EBC8E"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameEditText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="139dp"
+        android:hint="Enter your name" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:onClick="clickFunction"
+        android:layout_marginBottom="58dp"
+        android:layout_above="@+id/nameEditText"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
